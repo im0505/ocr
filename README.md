@@ -4,6 +4,7 @@ text recognition with opencv js
 
 ## TODO
 
+- merge boxes
 - Rescaling
 - Rotation / Deskewing
 - crop
