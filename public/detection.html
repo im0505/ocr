@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Step-by-Step Text Detection with OpenCV.js</title>
+    <script async src="https://docs.opencv.org/4.x/opencv.js"></script>
+  </head>
+  <body>
+    <h2>Upload an Image</h2>
+    <input type="file" id="fileInput" name="fileInput" />
+    <h2>Processed Images</h2>
+    <canvas id="canvasOriginal"></canvas>
+    <h3>Grayscale Image</h3>
+    <canvas id="canvasGray"></canvas>
+    <h3>Filtered out Noise Image</h3>
+    <canvas id="canvasNoiseFree"></canvas>
+    <h3>Binary Image</h3>
+    <canvas id="canvasBinary"></canvas>
+    <h3>Contours Detected</h3>
+    <canvas id="canvasContours"></canvas>
+    <h3>Final Image with Bounding Boxes</h3>
+    <canvas id="canvasOutput"></canvas>
+
+    <script type="text/javascript" src="textDetection.js"></script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>OCR TEST</title>
+    <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
+  </head>
+  <body>
+    <video id="videoElement" autoplay playsinline></video>
+    <button id="captureButton">capture</button>
+    <canvas id="canvasElement" style="display: none"></canvas>
+    <img id="capturedImage" />
+    <input type="file" id="fileInput" name="fileInput" />
+    <canvas id="canvasOutput"></canvas>
+
+    <script src="script.js"></script>
+    <script async src="https://docs.opencv.org/4.9.0/opencv.js"></script>
+    <script src="detection.js"></script>
+  </body>
+</html>
